@@ -6,7 +6,7 @@
 
 <h1 align="center">
   <a href="https://raptori.dev">
-    Raptori's portfolio
+    Rishav's portfolio
   </a>
 </h1>
 
