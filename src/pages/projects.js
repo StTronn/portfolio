@@ -111,7 +111,7 @@ const ProjectsPage = () => (
 					github profile.{' '}
 				</p>
 				<Small>
-					<Link to="http://13.235.90.61/" button>
+					<Link to="https://sttronn.github.io/web_cat/" button>
 						Site
 					</Link>
 					&nbsp;
@@ -134,7 +134,7 @@ const ProjectsPage = () => (
 					solve the puzzle
 				</p>
 				<Small>
-					<Link to="https://saurussims.tumblr.com/" button>
+					<Link to="https://sttronn.github.io/8-TILES/" button>
 						Play Game
 					</Link>
 					&nbsp;
