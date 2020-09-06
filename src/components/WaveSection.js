@@ -30,7 +30,7 @@ const Wrapper = styled.div`
 `
 
 const Section = styled.div`
-	color: var(--dark);
+	color: var(--ocean-text);
 	margin: 0 -2rem;
 	padding: 0 !important;
 

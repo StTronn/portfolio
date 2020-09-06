@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400,400i,700,700i');
 
 :root {
-	--source: #43b9b7;
+	--source: #2e9cca;
 	--primary: var(--source);
-	--primary-faded: #43b9b755;
-	--primary-transparent: #43b9b700;
+	--primary-faded: #222b3c755;
+	--primary-transparent: #222b3c700;
 	--alternate-dark: #289eba;
 	--alternate-light: #34d8ff;
 	--secondary-dark: #28597f;
@@ -12,7 +12,8 @@
 	--contrast: #ef7432;
 	--contrast-secondary-light: #efb94c;
 	--contrast-secondary-dark: #d1331b;
-	--light: #d5e2eb;
+    --ocean-text: white;
+	--light: white;
 	--light-shadow: #abb6bf66;
 	--dark: #2f3d4c;
 	--dark-shadow: #19212966;
