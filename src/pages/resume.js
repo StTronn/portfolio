@@ -88,6 +88,17 @@ const ResumePage = () => (
 				<p> A 8 tiles puzzle game with A* search solver</p>
 
 				<Resume.Role
+					name="Spotify-Party"
+					link="http://3.92.116.12:3000/"
+				/>
+				<p>Chat and see what your freinds are playing.</p>
+
+				<Resume.Role
+					name="Vibes"
+					link="https://sttronn.github.io/color-pallete-generator/"
+				/>
+				<p>A color pallete generator from images</p>
+				<Resume.Role
 					name="Drums-2.0"
 					link="https://sttronn.github.io/Drums-2.0/"
 				/>
@@ -100,7 +111,7 @@ const ResumePage = () => (
 				<p> Find relation through between any actor and Kevin Bacon</p>
 				<Resume.Role
 					name="d3-music-visualizer"
-					link="https://github.com/StTronn/d3-music-viz"
+					link="https://sttronn.github.io/d3-music-viz/"
 				/>
 				<p>Music Visualizer made with d3js and WebAudioApi</p>
 			</Resume.Position>

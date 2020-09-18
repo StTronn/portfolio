@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,400,400i,700,700i');
 
 :root {
-	--source: #2e9cca;
+	--source: #0eb7c9;
 	--primary: var(--source);
 	--primary-faded: #222b3c755;
 	--primary-transparent: #222b3c700;

@@ -82,50 +82,6 @@ const ProjectsPage = () => (
 			</section>
 
 			<WaveSection as="section">
-				<h3>
-					<QueryImage
-						name="Web-Cat"
-						style={{
-							display: 'inline-block',
-							marginRight: '10px',
-							verticalAlign: 'middle',
-							width: 44,
-						}}
-					/>{' '}
-					Web Cat
-				</h3>
-				<p>
-					Web Cat is a market analytics tool which I built at{' '}
-					<a href="https://walkover.in/">@Walkover</a>. It scrapes top
-					1 million site genrating the most traffic and categorizes
-					them. It then genrates average ranking and keywords of
-					particular category from the sites and provides a
-					informative view to the user. Also it provides the feature
-					to categorizes any new site and show simillar sites which
-					are already in database.
-				</p>
-				<p>
-					{' '}
-					All of this is packed in a clean but detailed UI. The UI is
-					developed as a web app using React and is open sourced on my
-					github profile.{' '}
-				</p>
-				<Small>
-					<Link to="https://sttronn.github.io/web_cat/" button>
-						Site
-					</Link>
-					&nbsp;
-					<Link
-						to="https://github.com/StTronn/web_cat"
-						secondary
-						button
-					>
-						<Icon name="GitHub" /> Code
-					</Link>
-				</Small>
-			</WaveSection>
-
-			<section>
 				<h3>8-TILES</h3>
 				<p>
 					8-TILES is a web recreation of popular sliding puzzle in
@@ -140,6 +96,89 @@ const ProjectsPage = () => (
 					&nbsp;
 					<Link
 						to="https://github.com/StTronn/8-TILES"
+						secondary
+						button
+					>
+						<Icon name="GitHub" /> Code
+					</Link>
+				</Small>
+			</WaveSection>
+
+			<section>
+				<h3>Vibes</h3>
+				<p>Online tool to generate color pallete from images. </p>
+				<Small>
+					<Link
+						to="https://sttronn.github.io/color-pallete-generator/"
+						button
+					>
+						Site
+					</Link>
+					&nbsp;
+					<Link
+						to="https://github.com/StTronn/color-pallete-generator"
+						secondary
+						button
+					>
+						<Icon name="GitHub" /> Code
+					</Link>
+				</Small>
+			</section>
+
+			<WaveSection as="section">
+				<h3>Spotify-Party</h3>
+				<p>
+					The project allows users to create a room with friends
+					allowing them to chat and see what others are playing.
+				</p>
+				<p>It is made using MERN stack, spotify api and socket.io</p>
+				<Small>
+					<Link to="http://3.92.116.12:3000/" button>
+						Site
+					</Link>
+					&nbsp;
+					<Link
+						to="https://github.com/StTronn/spotify-party-1.0"
+						secondary
+						button
+					>
+						<Icon name="GitHub" /> Code
+					</Link>
+				</Small>
+			</WaveSection>
+
+			<section>
+				<h3>
+					<QueryImage
+						name="Web-Cat"
+						style={{
+							display: 'inline-block',
+							marginRight: '10px',
+							verticalAlign: 'middle',
+							width: 44,
+						}}
+					/>{' '}
+					Web Cat
+				</h3>
+				<p>
+					Built a market analysis tool with @Walkover by crawling 1
+					million sites and categorized them. With features like
+					search engine,sub-categorization, rank and size changes of
+					each Industry for analyzing market trends
+				</p>
+				<p>
+					{' '}
+					All of this is packed in a clean but detailed UI. The UI is
+					developed as a web app using React and is open sourced on my
+					github profile.{' '}
+				</p>
+				<Small>
+					<Link to="https://sttronn.github.io/web_cat/" button>
+						Site
+					</Link>
+					&nbsp;
+					<Link
+						to="https://github.com/StTronn/web_cat"
 						secondary
 						button
 					>
@@ -173,6 +212,27 @@ const ProjectsPage = () => (
 			</WaveSection>
 
 			<section>
+				<h3>Music visualizer</h3>
+				<p>
+					A music frequency visualizer using D3.js and the Web Audio
+					API.
+				</p>
+				<Small>
+					<Link to="https://sttronn.github.io/d3-music-viz/" button>
+						viz
+					</Link>
+					&nbsp;
+					<Link
+						to="https://github.com/StTronn/d3-music-viz"
+						secondary
+						button
+					>
+						<Icon name="GitHub" /> Code
+					</Link>
+				</Small>
+			</section>
+
+			<WaveSection as="section">
 				<h3>6 Degrees of Kevin Bacon</h3>
 				<p>
 					The project find a Link between any actor in imdb database
@@ -196,6 +256,24 @@ const ProjectsPage = () => (
 				<Small>
 					<Link
 						to="https://github.com/StTronn/Oracle-of-Kevin-Bacon"
+						secondary
+						button
+					>
+						<Icon name="GitHub" /> Code
+					</Link>
+				</Small>
+			</WaveSection>
+
+			<section>
+				<h3>Tetris </h3>
+				<p>Tetris clone in js </p>
+				<Small>
+					<Link to="https://github.com/StTronn/Tetris" button>
+						play
+					</Link>
+					&nbsp;
+					<Link
+						to="https://sttronn.github.io/Tetris/"
 						secondary
 						button
 					>
